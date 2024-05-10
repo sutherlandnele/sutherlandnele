@@ -24,7 +24,7 @@
 
 💡 I thrive on innovation and collaboration, constantly seeking to transform theoretical concepts into real-world solutions that push technological boundaries.
 
-<pre style="color: limegreen; background-color: black; padding: 10px;">
+```diff
 +@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
 @@       o o                                           @@
 @@       | |                                           @@
@@ -44,7 +44,7 @@
 @@ _.-' _j L_ '-._                                     @@
 @@(___.'     '.___)                                    @@
 +@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
-</pre>
+```
 
 ---
 ### 🏆 GitHub Trophies
