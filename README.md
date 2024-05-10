@@ -9,11 +9,17 @@
 
 ### 🌐 About Me
 
-I’m deeply fascinated by the wonders of Computer Science, especially in Software Engineering and Artificial Intelligence. When I'm not crafting code, you can find me exploring the great outdoors with my beloved canine companion 🐕, a passion instilled in me by my village upbringing, where I marveled at nature's complexity.
+👀 I’m deeply fascinated by the wonders of Computer Science, especially in the realms of Software Engineering and Artificial Intelligence. When I'm not crafting code, you can find me exploring the great outdoors with my beloved canine companion 🐕, a passion instilled in me by my village upbringing, where I marveled at nature's complexity.
 
-As a young boy, I was captivated by the collaborative efforts of tiny insects like Ants 🐜 and Bees 🐝 in building intricate colonies and perfectly symmetrical hives. This curiosity led me to discover "Swarm Theory" in Computer Science, a concept that has since enthralled me due to its parallels with nature and its potential in solving complex problems.
+🐜 As a young boy, I was captivated by the collaborative efforts of tiny insects like Ants 🐜 and Bees 🐝 in building intricate colonies and perfectly symmetrical hives. This curiosity led me to discover "Swarm Theory" in Computer Science, a concept that has since enthralled me due to its parallels with nature and its potential in solving complex problems.
 
-Now, I'm on a quest to delve deeper into "Swarm Theory" or "True AI," aiming to unravel how we can break down formidable problems into smaller, more manageable parts. By developing, training, and deploying individual agents to tackle these smaller challenges, we can construct sophisticated systems. This concept is not only a game-changer in Software Engineering for analyzing, designing, and building complex distributed systems, but it also aligns with my passion for leveraging technologies like Docker and Microservices to simplify monolithic systems into agile, decentralized microservices. This approach, combined with concepts like Reactive and Parallel programming, empowers us to create robust, high-performance systems that defy hardware limitations 💻.
+🇵🇬 Now, I'm on a quest to delve deeper into "Swarm Theory" or "True AI," aiming to unravel how we can break down formidable problems into smaller, more manageable parts. By developing, training, and deploying individual agents to tackle these smaller challenges, we can construct sophisticated systems. This concept is not only a game-changer in Software Engineering for analyzing, designing, and building complex distributed systems, but it also aligns with my passion for leveraging technologies like Docker and Microservices to simplify monolithic systems into agile, decentralized microservices. This approach, combined with concepts like Reactive and Parallel programming, empowers us to create robust, high-performance systems that defy hardware limitations 💻.
+
+👼 God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing to the advancement of "Swarm Theory," a.k.a. "True Artificial Intelligence" 🤖.
+
+🌱 Currently, I serve as a Technical Software Solutions Architect at Cloudcode PNG Limited https://www.cloudcode.com.pg.
+
+💞️ With a solid foundation in designing, developing, and maintaining complex distributed database systems in industries such as Telco, Mining, and Fintech, mainly in Papua New Guinea, I thrive on embracing new challenges and global opportunities for collaborating on intricate software design and development projects.
 
 God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing to the advancement of "Swarm Theory," a.k.a. "True Artificial Intelligence" 🤖.
 
@@ -42,11 +48,11 @@ During my downtime, I immerse myself in mystery novels, enjoy the tranquility of
 
 ### 🚀 Philanthropy
 
-- 🚰 Wara Em Laif Project - Providing free clean water to villagers in Papua New Guinea by designing and building inexpensive and reliable Wirtz water pumps that extract water from creeks to communal areas for easy access.
-- 🔌 Pawarim Peles Project - Offering affordable electricity to individual village houses or huts in Papua New Guinea by assisting them in designing, building, and utilizing electricity generation systems using solar, wind, and water.
-- 💻 Fundamental Computer Skills for Papua New Guineans - Providing free three (3) days of computer training to 100 participants every year in selected locations within Papua New Guinea using facilities provided by the Catholic Church.
+* 🚰 Wara Em Laif Project - Providing free clean water to villagers in Papua New Guinea by designing and building inexpensive and reliable Wirtz water pumps that extract water from creeks to communal areas for easy access.
+* 🔌 Pawarim Peles Project - Offering affordable electricity to individual village houses or huts in Papua New Guinea by assisting them in designing, building, and utilizing electricity generation systems using solar, wind, and water.
+* 💻 Fundamental Computer Skills for Papua New Guineans - Providing free three (3) days of computer training to 100 participants every year in selected locations within Papua New Guinea using facilities provided by the Catholic Church.
 
-### 📬 Reach Me
+### 📬 Connect With Me
 
 📫 Please don't hesitate to reach out to me via email at [sutherland.nele@cloudcode.com.pg](mailto:sutherland.nele@cloudcode.com.pg) for any inquiries or collaborations!
 
