@@ -42,9 +42,9 @@ During my downtime, I immerse myself in mystery novels, enjoy the tranquility of
 
 ### 🚀 Philanthropy
 
-- 🚰 **Wara Em Laif Project**: Providing free clean water in Papua New Guinea.
-- 🔌 **Pawarim Peles Project**: Assisting in designing electricity generation systems.
-- 💻 **Fundamental Computer Skills for Papua New Guineans**: Free computer training annually.
+- 🚰 Wara Em Laif Project - Providing free clean water to villagers in Papua New Guinea by designing and building inexpensive and reliable Wirtz water pumps that extract water from creeks to communal areas for easy access.
+- 🔌 Pawarim Peles Project - Offering affordable electricity to individual village houses or huts in Papua New Guinea by assisting them in designing, building, and utilizing electricity generation systems using solar, wind, and water.
+- 💻 Fundamental Computer Skills for Papua New Guineans - Providing free three (3) days of computer training to 100 participants every year in selected locations within Papua New Guinea using facilities provided by the Catholic Church.
 
 ### 📬 Reach Me
 
