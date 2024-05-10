@@ -20,7 +20,7 @@
 
 👨‍💻 I'm a Tech Enthusiast passionate about Software Engineering and AI, often found coding or venturing outdoors with my dog. My childhood fascination with nature's intricacies, like ant colonies and bee hives, led me to explore "Swarm Theory" in Computer Science. This pursuit drives my work in breaking down complex problems using AI, Docker, and Microservices to build decentralized, efficient systems.
 
-🚀 At [Cloudcode PNG Limited](https://www.cloudcode.com.pg), I apply my skills as a Technical Software Solutions Architect, tackling challenges across diverse sectors like Telecom, Mining, and Fintech in Papua New Guinea. I aspire to further deepen my expertise by pursuing a PhD in Computer Science, focusing on advancing "Swarm Theory" into practical AI applications.
+🚀 At <a href="https://www.cloudcode.com.pg" target="_blank">Cloudcode PNG Limited</a>, I apply my skills as a Technical Software Solutions Architect, tackling challenges across diverse sectors like Telecom, Mining, and Fintech in Papua New Guinea. I aspire to further deepen my expertise by pursuing a PhD in Computer Science, focusing on advancing "Swarm Theory" into practical AI applications.
 
 💡 I thrive on innovation and collaboration, constantly seeking to transform theoretical concepts into real-world solutions that push technological boundaries.
 
