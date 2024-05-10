@@ -60,10 +60,6 @@ During my downtime, I immerse myself in mystery novels, enjoy the tranquility of
 
 ---
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/sutherlandnele/"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=flat&logo=LinkedIn&logoColor=white"/></a>
-</p>
-
 <div align="center">
 
 ### 𝚂𝚑𝚘𝚠 𝚜𝚘𝚖𝚎 ❤️ 𝚋𝚢 𝚜𝚝𝚊𝚛𝚛𝚒𝚗𝚐 𝚜𝚘𝚖𝚎 𝚘𝚏 𝚝𝚑𝚎 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜!
