@@ -1,12 +1,3 @@
-<h1 align="center">👋 Hello Coders!</h1>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sutherlandnele&style=flat-square&color=blue" alt="profile view count"/>
-  <img src="https://img.shields.io/github/followers/sutherlandnele?label=Followers&style=social" alt="followers"/>
-</p>
-
----
-
 ```diff
 ███████╗░█████╗░░██████╗████████╗  ░██████╗██╗░░░░░███████╗███████╗██████╗░  ░█████╗░░█████╗░██████╗░███████╗
 ██╔════╝██╔══██╗██╔════╝╚══██╔══╝  ██╔════╝██║░░░░░██╔════╝██╔════╝██╔══██╗  ██╔══██╗██╔══██╗██╔══██╗██╔════╝
@@ -15,7 +6,14 @@
 ███████╗██║░░██║██████╔╝░░░██║░░░  ██████╔╝███████╗███████╗███████╗██║░░░░░  ╚█████╔╝╚█████╔╝██████╔╝███████╗
 ╚══════╝╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░  ╚═════╝░╚══════╝╚══════╝╚══════╝╚═╝░░░░░  ░╚════╝░░╚════╝░╚═════╝░╚══════╝ 
 ```
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=sutherlandnele&style=flat-square&color=blue" alt="profile view count"/>
+  <img src="https://img.shields.io/github/followers/sutherlandnele?label=Followers&style=social" alt="followers"/>
+</p>
+
 ---
+
+<h1 align="center">👋 Hello Coders!</h1>
 
 ### 🌐 About Me
 
