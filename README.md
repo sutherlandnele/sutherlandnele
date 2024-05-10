@@ -46,6 +46,7 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 
 [![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele&theme=github-compact)](https://github.com/sutherlandnele/github-readme-activity-graph)
 
+```diff
 +@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
 @@       o o                                           @@
 @@       | |                                           @@
@@ -65,6 +66,7 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 @@ _.-' _j L_ '-._                                     @@
 @@(___.'     '.___)                                    @@
 +@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
+```
 
 ![GitHub Metrics](./github-metrics.svg)
 
