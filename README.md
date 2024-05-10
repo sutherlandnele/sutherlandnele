@@ -63,7 +63,7 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sutherlandnele&show_icons=true&theme=algolia" alt="Sutherland's GitHub Stats"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sutherlandnele&theme=algolia" alt="Sutherland's GitHub Streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sutherlandnele&layout=compact&theme=algolia&langs_count=10" alt="Sutherland's Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sutherlandnele&&text_color=FFFFFF&bg_color=000000&title_color=94b4a4&langs_count=15&layout=compact&hide_border=true" alt="Sutherland's Top Languages"/>
 </p>
 
 [![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele&theme=github-compact)](https://github.com/sutherlandnele/github-readme-activity-graph)
