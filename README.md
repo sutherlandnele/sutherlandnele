@@ -31,6 +31,8 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
   <img src="https://activity-graph.herokuapp.com/graph?username=sutherlandnele&theme=xcode" alt="Sutherland's Activity Graph"/>
 </p>
 
+[![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele)](https://github.com/sutherlandnele/github-readme-activity-graph)
+
 
 ### 🏆 GitHub Trophies
 
