@@ -66,7 +66,7 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
  <img align="left" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sutherlandnele&text_color=FFFFFF&bg_color=000000&title_color=94b4a4&layout=compact&langs_count=15&hide_border=true" />
  <!--<img align="center" height="195px" src="https://gists-readme.yizack.com/api?user=sutherlandnele" />-->
 
- <img align="right" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sutherlandnele&text_color=FFFFFF&bg_color=000000&title_color=94b4a4&layout=compact&langs_count=15&hide_border=true" />
+ <img align="right" height="195px" src="https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele&theme=react-dark&hide_border=true&area=true" />
 
 </p>
 
