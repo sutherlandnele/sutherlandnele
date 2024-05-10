@@ -18,21 +18,11 @@
 
 ### 🌐 About Me
 
-👀 I’m deeply fascinated by the wonders of Computer Science, especially in the realms of Software Engineering and Artificial Intelligence. When I'm not crafting code, you can find me exploring the great outdoors with my beloved canine companion 🐕, a passion instilled in me by my village upbringing, where I marveled at nature's complexity.
+👨‍💻 I'm a Tech Enthusiast passionate about Software Engineering and AI, often found coding or venturing outdoors with my dog. My childhood fascination with nature's intricacies, like ant colonies and bee hives, led me to explore "Swarm Theory" in Computer Science. This pursuit drives my work in breaking down complex problems using AI, Docker, and Microservices to build decentralized, efficient systems.
 
-🐜 As a young boy, I was captivated by the collaborative efforts of tiny insects like Ants 🐜 and Bees 🐝 in building intricate colonies and perfectly symmetrical hives. This curiosity led me to discover "Swarm Theory" in Computer Science, a concept that has since enthralled me due to its parallels with nature and its potential in solving complex problems.
+🚀 At [Cloudcode PNG Limited](https://www.cloudcode.com.pg), I apply my skills as a Technical Software Solutions Architect, tackling challenges across diverse sectors like Telecom, Mining, and Fintech in Papua New Guinea. I aspire to further deepen my expertise by pursuing a PhD in Computer Science, focusing on advancing "Swarm Theory" into practical AI applications.
 
-🇵🇬 Now, I'm on a quest to delve deeper into "Swarm Theory" or "True AI," aiming to unravel how we can break down formidable problems into smaller, more manageable parts. By developing, training, and deploying individual agents to tackle these smaller challenges, we can construct sophisticated systems. This concept is not only a game-changer in Software Engineering for analyzing, designing, and building complex distributed systems, but it also aligns with my passion for leveraging technologies like Docker and Microservices to simplify monolithic systems into agile, decentralized microservices. This approach, combined with concepts like Reactive and Parallel programming, empowers us to create robust, high-performance systems that defy hardware limitations 💻.
-
-👼 God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing to the advancement of "Swarm Theory," a.k.a. "True Artificial Intelligence" 🤖.
-
-🌱 Currently, I serve as a Technical Software Solutions Architect at Cloudcode PNG Limited https://www.cloudcode.com.pg.
-
-💞️ With a solid foundation in designing, developing, and maintaining complex distributed database systems in industries such as Telco, Mining, and Fintech, mainly in Papua New Guinea, I thrive on embracing new challenges and global opportunities for collaborating on intricate software design and development projects.
-
-God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing to the advancement of "Swarm Theory," a.k.a. "True Artificial Intelligence" 🤖.
-
-🌱 Currently, I serve as a Technical Software Solutions Architect at [Cloudcode PNG Limited](https://www.cloudcode.com.pg).
+💡 I thrive on innovation and collaboration, constantly seeking to transform theoretical concepts into real-world solutions that push technological boundaries.
 
 ```diff
 +@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
