@@ -38,25 +38,12 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 [![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele&theme=github-compact)](https://github.com/sutherlandnele/github-readme-activity-graph)
 
 ```diff
-+@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
-@@       o o                                           @@
-@@       | |                                           @@
-@@      _L_L_                                          @@
-@@   ❮\/__-__\/❯ Programming isn't about what you know @@
-@@   ❮(|~o.o~|)❯  It's about what you can figure out   @@
-@@   ❮/ \`-'/ \❯                                       @@
-@@     _/`U'\_                                         @@
-@@    ( .   . )     .----------------------------.     @@
-@@   / /     \ \    | while( ! (succeed=try() ) ) |    @@
-@@   \ |  ,  | /    '----------------------------'     @@
-@@    \|=====|/                                        @@
-@@     |_.^._|                                         @@
-@@     | |"| |                                         @@
-@@     ( ) ( )   Testing leads to failure              @@
-@@     |_| |_|   and failure leads to understanding    @@
-@@ _.-' _j L_ '-._                                     @@
-@@(___.'     '.___)                                    @@
-+@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
+___________       __      _________.__                         _________            .___      
+\_   _____/____ _/  |_   /   _____/|  |   ____   ____ ______   \_   ___ \  ____   __| _/____  
+ |    __)_\__  \\   __\  \_____  \ |  | _/ __ \_/ __ \\____ \  /    \  \/ /  _ \ / __ |/ __ \ 
+ |        \/ __ \|  |    /        \|  |_\  ___/\  ___/|  |_> > \     \___(  <_> ) /_/ \  ___/ 
+/_______  (____  /__|   /_______  /|____/\___  >\___  >   __/   \______  /\____/\____ |\___  >
+        \/     \/               \/           \/     \/|__|             \/            \/    \/ 
 ```
 
 ![GitHub Metrics](./github-metrics.svg)
