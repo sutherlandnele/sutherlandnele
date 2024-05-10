@@ -52,9 +52,11 @@ During my downtime, I immerse myself in mystery novels, enjoy the tranquility of
 * 🔌 Pawarim Peles Project - Offering affordable electricity to individual village houses or huts in Papua New Guinea by assisting them in designing, building, and utilizing electricity generation systems using solar, wind, and water.
 * 💻 Fundamental Computer Skills for Papua New Guineans - Providing free three (3) days of computer training to 100 participants every year in selected locations within Papua New Guinea using facilities provided by the Catholic Church.
 
-### 📬 Connect With Me
+### 🤝 Connect with Me
 
-📫 Please don't hesitate to reach out to me via email at [sutherland.nele@cloudcode.com.pg](mailto:sutherland.nele@cloudcode.com.pg) for any inquiries or collaborations!
+<p align="center">
+  <a href="https://www.linkedin.com/in/sutherlandnele/"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=flat&logo=LinkedIn&logoColor=white"/></a>
+</p>
 
 ---
 
