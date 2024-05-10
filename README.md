@@ -33,18 +33,6 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 
 🌱 Currently, I serve as a Technical Software Solutions Architect at [Cloudcode PNG Limited](https://www.cloudcode.com.pg).
 
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sutherlandnele&show_icons=true&theme=algolia" alt="Sutherland's GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sutherlandnele&theme=algolia" alt="Sutherland's GitHub Streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sutherlandnele&layout=compact&theme=algolia" alt="Sutherland's Top Languages"/>
-</p>
-
-[![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele&theme=github-compact)](https://github.com/sutherlandnele/github-readme-activity-graph)
-
 ```diff
 +@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
 @@       o o                                           @@
@@ -66,6 +54,18 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 @@(___.'     '.___)                                    @@
 +@ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @+
 ```
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sutherlandnele&show_icons=true&theme=algolia" alt="Sutherland's GitHub Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sutherlandnele&theme=algolia" alt="Sutherland's GitHub Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sutherlandnele&layout=compact&theme=algolia" alt="Sutherland's Top Languages"/>
+</p>
+
+[![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele&theme=github-compact)](https://github.com/sutherlandnele/github-readme-activity-graph)
 
 ![GitHub Metrics](./github-metrics.svg)
 
