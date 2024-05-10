@@ -57,6 +57,7 @@ During my downtime, I immerse myself in mystery novels, enjoy the tranquility of
 <p align="center">
   <a href="https://www.linkedin.com/in/suthzy/"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=flat&logo=LinkedIn&logoColor=white"/></a>
   <a href="https://twitter.com/suthzy"><img src="https://img.shields.io/twitter/follow/suthzy?label=Follow&style=social" /></a>
+  <a href="https://g.dev/suthzy"><img src="https://img.shields.io/badge/-Google_Developer-%234285F4?style=flat&logo=Google&logoColor=white" /></a>
   <a href="https://www.youtube.com/channel/UCTwEHtse7yzRgVm4HZRIbTA"><img src="https://img.shields.io/badge/-Google_Developer-%234285F4?style=flat&logo=Google&logoColor=white" /></a>
 </p>
 
