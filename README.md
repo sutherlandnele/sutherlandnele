@@ -25,6 +25,8 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 
 🌱 Currently, I serve as a Technical Software Solutions Architect at [Cloudcode PNG Limited](https://www.cloudcode.com.pg).
 
+---
+
 ### 📊 GitHub Stats
 
 <p align="center">
@@ -35,6 +37,7 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 
 [![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele&theme=github-compact)](https://github.com/sutherlandnele/github-readme-activity-graph)
 
+---
 
 ### 🏆 GitHub Trophies
 
@@ -42,15 +45,21 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
   <img src="https://github-profile-trophy.vercel.app/?username=sutherlandnele&theme=nord&column=7" alt="Sutherland's GitHub Trophies"/>
 </p>
 
+---
+
 ### 🎣 Interests
 
 During my downtime, I immerse myself in mystery novels, enjoy the tranquility of fishing, and engage in philanthropic endeavors to enrich my community and the remarkable individuals within it.
+
+---
 
 ### 🚀 Philanthropy
 
 * 🚰 Wara Em Laif Project - Providing free clean water to villagers in Papua New Guinea by designing and building inexpensive and reliable Wirtz water pumps that extract water from creeks to communal areas for easy access.
 * 🔌 Pawarim Peles Project - Offering affordable electricity to individual village houses or huts in Papua New Guinea by assisting them in designing, building, and utilizing electricity generation systems using solar, wind, and water.
 * 💻 Fundamental Computer Skills for Papua New Guineans - Providing free three (3) days of computer training to 100 participants every year in selected locations within Papua New Guinea using facilities provided by the Catholic Church.
+
+---
 
 ### 🤝 Connect with Me
 
@@ -63,7 +72,6 @@ During my downtime, I immerse myself in mystery novels, enjoy the tranquility of
   <a href="https://wa.me/+67579264133" target="_blank"><img src="https://img.shields.io/badge/-WhatsApp-%2325D366?style=flat&logo=WhatsApp&logoColor=white"/></a>
 
 </p>
-
 
 ---
 
