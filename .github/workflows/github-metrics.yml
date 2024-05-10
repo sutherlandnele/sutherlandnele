@@ -17,8 +17,6 @@ jobs:
           # Your GitHub token
           # The following scopes are required:
           #  - public_access (default scope)
-          #  - read:user
-          #  - read:org
           #  - public_repo
           #  - read:project
           # The following additional scopes may be required:
@@ -90,7 +88,6 @@ jobs:
           plugin_projects_limit: 4
           plugin_repositories: yes
           plugin_repositories_order: featured, pinned, starred, random
-          plugin_sponsors: yes
-          plugin_sponsors_sections: goal, list, about
-          plugin_sponsors_size: 24
-          plugin_sponsors_title: Sponsor Me!
+          plugin_repositories_pinned: 5
+          plugin_repositories_random: 5
+          plugin_repositories_starred: 5
