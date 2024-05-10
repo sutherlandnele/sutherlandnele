@@ -27,7 +27,7 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sutherlandnele&layout=compact&theme=algolia" alt="Sutherland's Top Languages"/>
 </p>
 
-[![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele)](https://github.com/sutherlandnele/github-readme-activity-graph)
+[![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele&theme=github-compact)](https://github.com/sutherlandnele/github-readme-activity-graph)
 
 
 ### 🏆 GitHub Trophies
