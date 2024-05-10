@@ -9,6 +9,15 @@
 
 ### 🌐 About Me
 
+```diff
+___________       __      _________.__                         _________            .___      
+\_   _____/____ _/  |_   /   _____/|  |   ____   ____ ______   \_   ___ \  ____   __| _/____  
+ |    __)_\__  \\   __\  \_____  \ |  | _/ __ \_/ __ \\____ \  /    \  \/ /  _ \ / __ |/ __ \ 
+ |        \/ __ \|  |    /        \|  |_\  ___/\  ___/|  |_> > \     \___(  <_> ) /_/ \  ___/ 
+/_______  (____  /__|   /_______  /|____/\___  >\___  >   __/   \______  /\____/\____ |\___  >
+        \/     \/               \/           \/     \/|__|             \/            \/    \/ 
+```
+
 👀 I’m deeply fascinated by the wonders of Computer Science, especially in the realms of Software Engineering and Artificial Intelligence. When I'm not crafting code, you can find me exploring the great outdoors with my beloved canine companion 🐕, a passion instilled in me by my village upbringing, where I marveled at nature's complexity.
 
 🐜 As a young boy, I was captivated by the collaborative efforts of tiny insects like Ants 🐜 and Bees 🐝 in building intricate colonies and perfectly symmetrical hives. This curiosity led me to discover "Swarm Theory" in Computer Science, a concept that has since enthralled me due to its parallels with nature and its potential in solving complex problems.
@@ -37,14 +46,7 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 
 [![Github Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele&theme=github-compact)](https://github.com/sutherlandnele/github-readme-activity-graph)
 
-```diff
-___________       __      _________.__                         _________            .___      
-\_   _____/____ _/  |_   /   _____/|  |   ____   ____ ______   \_   ___ \  ____   __| _/____  
- |    __)_\__  \\   __\  \_____  \ |  | _/ __ \_/ __ \\____ \  /    \  \/ /  _ \ / __ |/ __ \ 
- |        \/ __ \|  |    /        \|  |_\  ___/\  ___/|  |_> > \     \___(  <_> ) /_/ \  ___/ 
-/_______  (____  /__|   /_______  /|____/\___  >\___  >   __/   \______  /\____/\____ |\___  >
-        \/     \/               \/           \/     \/|__|             \/            \/    \/ 
-```
+
 
 ![GitHub Metrics](./github-metrics.svg)
 
