@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hello, I’m Sutherland Nele - aka Suthzy!</h1>
+<h1 align="center">👋 Hello Coders!</h1>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sutherlandnele&style=flat-square&color=blue" alt="profile view count"/>
