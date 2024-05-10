@@ -68,7 +68,7 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
    <img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=sutherlandnele&theme=react-dark&hide_border=true&area=true" />
 </p>
 
-![GitHub Metrics](./github-metrics.svg)
+![GitHub Metrics](https://github.com/sutherlandnele/github-metrics.svg)
 
 ---
 
