@@ -41,6 +41,12 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 
 During my downtime, I immerse myself in mystery novels, enjoy the tranquility of fishing, and engage in philanthropic endeavors to enrich my community and the remarkable individuals within it.
 
+### 🚀 Philanthropy
+
+- 🚰 **Wara Em Laif Project**: Providing free clean water in Papua New Guinea.
+- 🔌 **Pawarim Peles Project**: Assisting in designing electricity generation systems.
+- 💻 **Fundamental Computer Skills for Papua New Guineans**: Free computer training annually.
+
 ### 📬 Reach Me
 
 📫 Please don't hesitate to reach out to me via email at [sutherland.nele@cloudcode.com.pg](mailto:sutherland.nele@cloudcode.com.pg) for any inquiries or collaborations!
@@ -50,4 +56,10 @@ During my downtime, I immerse myself in mystery novels, enjoy the tranquility of
 <p align="center">
   <a href="https://www.linkedin.com/in/sutherlandnele/"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=flat&logo=LinkedIn&logoColor=white"/></a>
 </p>
+
+<div align="center">
+
+### 𝚂𝚑𝚘𝚠 𝚜𝚘𝚖𝚎 ❤️ 𝚋𝚢 𝚜𝚝𝚊𝚛𝚛𝚒𝚗𝚐 𝚜𝚘𝚖𝚎 𝚘𝚏 𝚝𝚑𝚎 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜!
+
+</div>
 
