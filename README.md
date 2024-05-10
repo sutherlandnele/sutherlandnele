@@ -57,6 +57,13 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 ```
 
 ---
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sutherlandnele&column=10&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=juicyfresh" alt="Sutherland's GitHub Trophies"/>
+</p>
+
+---
 
 ### 📊 GitHub Stats
 
@@ -69,14 +76,6 @@ God-willing, my ultimate goal is to earn a PhD in Computer Science, contributing
 </p>
 
 ![GitHub Metrics](./github-metrics.svg)
-
----
-
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sutherlandnele&theme=nord&column=7" alt="Sutherland's GitHub Trophies"/>
-</p>
 
 ---
 
