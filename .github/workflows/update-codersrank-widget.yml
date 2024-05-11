@@ -1,0 +1,41 @@
+name: Update CodersRank Widget
+
+on:
+  schedule:
+    # Runs at 12 noon UTC every day
+    - cron:  '0 12 * * *'
+
+jobs:
+  update-widget:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install Puppeteer
+      run: |
+        npm install puppeteer
+
+    - name: Capture CodersRank widget
+      run: |
+        const puppeteer = require('puppeteer');
+        (async () => {
+          const browser = await puppeteer.launch();
+          const page = await browser.newPage();
+          await page.goto('file://${{ github.workspace }}/codersrank-widget.html');
+          await page.screenshot({path: 'codersrank-widget.png'});
+          await browser.close();
+        })();
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add codersrank-widget.png
+        git commit -m "Update CodersRank Widget Image" || echo "No changes to commit"
+        git push
