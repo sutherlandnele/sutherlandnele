@@ -8,7 +8,6 @@ const puppeteer = require('puppeteer');
   await page.setViewport({ width: 1280, height: 800 });
 
   const filePath = `file://${process.env.WORKSPACE_PATH}/codersrank-widget.html`;
-  console.log(filePath);
   await page.goto(filePath, { waitUntil: 'networkidle0', timeout: 60000 }); // 60 seconds
 
   // Evaluate the full height of the page
