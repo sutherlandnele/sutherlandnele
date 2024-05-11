@@ -21,16 +21,7 @@ jobs:
       run: npm install puppeteer
 
     - name: Capture CodersRank widget
-      run: |
-        const puppeteer = require('puppeteer');
-        (async () => {
-          const browser = await puppeteer.launch();
-          const page = await browser.newPage();
-          await page.goto('file://${{ github.workspace }}/codersrank-widget.html', {waitUntil: 'networkidle0'});
-          await page.screenshot({path: 'codersrank-widget.png'});
-          await browser.close();
-        })();
-
+      run: node capture-widget.js
     - name: Commit and push if changed
       run: |
         git config --global user.email "action@github.com"
