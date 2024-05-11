@@ -14,7 +14,7 @@
 
 ---
 
-<h1 align="center">👋 Hello Coders!</h1> <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" width="50px"> 
+<h1 align="center">👋 Hello Coders! <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" width="50px"> </h1>
 
 ### 🌐 About Me
 
