@@ -86,7 +86,7 @@
 
 | Ubuntu | Kali Linux | Red Hat | macOS |
 |--------|------------|---------|-------|
-| ![Ubuntu](https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png) | ![Kali Linux](https://www.kali.org/images/kali-logo.svg) | ![Red Hat](https://www.redhat.com/cms/managed-files/trusted-oss-logotype-220x116.png) | ![macOS](https://developer.apple.com/design/human-interface-guidelines/macos/images/macos-logo.png) |
+| <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" width="100px"> | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Kali_Linux_Logo.png" width="100px"> | <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Red_Hat_logo.svg" width="100px"> | <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" width="100px"> |
 
 
 --- 
