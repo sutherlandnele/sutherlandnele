@@ -64,7 +64,7 @@
 ### 📊 Code Rankers Stats
 
 <p align="center">
-  <img height="195" align="center" src="./codersrank-widget.png"/>
+  <img align="center" src="./codersrank-widget.png"/>
 </p>
 
 ---
