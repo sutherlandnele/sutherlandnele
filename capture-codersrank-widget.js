@@ -14,7 +14,7 @@ const puppeteer = require('puppeteer');
   const pageHeight = await page.evaluate(() => document.documentElement.offsetHeight);
 
   // Capture only 37% of the page height
-  const clipHeight = Math.round(pageHeight * 0.37);
+  const clipHeight = Math.round(pageHeight * 0.70);
 
   await page.screenshot({
     path: 'codersrank-widget.png',
