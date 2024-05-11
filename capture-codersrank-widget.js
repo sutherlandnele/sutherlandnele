@@ -5,7 +5,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
 
   // Optionally set the viewport to the desired dimensions
-  await page.setViewport({ width: 1280, height: 800 });
+  //await page.setViewport({ width: 1280, height: 800 });
 
   const filePath = `file://${process.env.WORKSPACE_PATH}/codersrank-widget.html`;
   await page.goto(filePath, { waitUntil: 'networkidle0', timeout: 60000 }); // 60 seconds
@@ -21,7 +21,7 @@ const puppeteer = require('puppeteer');
     clip: {
       x: 0,
       y: 0,
-      width: 600, // Match viewport width or adjust as necessary
+      width: 1280, // Match viewport width or adjust as necessary
       height: clipHeight
     }
   });
