@@ -112,7 +112,7 @@ During my downtime, I immerse myself in mystery novels, enjoy the tranquility of
   <a href="https://www.linkedin.com/in/suthzy/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=flat&logo=LinkedIn&logoColor=white"/></a>
   <a href="https://twitter.com/suthzy" target="_blank"><img src="https://img.shields.io/twitter/follow/suthzy?label=Follow&style=social" /></a>
   <!--<a href="https://g.dev/suthzy" target="_blank"><img src="https://img.shields.io/badge/-Google_Developer-%234285F4?style=flat&logo=Google&logoColor=white" /></a>-->
-  <a href="https://www.youtube.com/channel/UCTwEHtse7yzRgVm4HZRIbT" target="_blank"><img src="https://img.shields.io/badge/-YouTube-%23FF0000?style=flat&logo=YouTube&logoColor=white"/></a>
+  <a href="https://youtube.com/@sutherlandnele?si=AMGog2u2JZ3G43Ql" target="_blank"><img src="https://img.shields.io/badge/-YouTube-%23FF0000?style=flat&logo=YouTube&logoColor=white"/></a>
   <a href="https://www.facebook.com/cloudcodepng" target="_blank"><img src="https://img.shields.io/badge/-Facebook-%231877F2?style=flat&logo=Facebook&logoColor=white"/></a>
   <a href="https://wa.me/+67579264133" target="_blank"><img src="https://img.shields.io/badge/-WhatsApp-%2325D366?style=flat&logo=WhatsApp&logoColor=white"/></a>
 
