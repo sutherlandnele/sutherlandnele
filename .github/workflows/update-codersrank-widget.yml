@@ -2,8 +2,8 @@ name: Update CodersRank Widget
 
 on:
   schedule:
-    # Runs at 12 noon UTC every day
-    - cron:  '0 12 * * *'
+    - cron: '0 12 * * *'
+  workflow_dispatch:  # This line allows you to manually trigger the workflow
 
 jobs:
   update-widget:
@@ -18,8 +18,7 @@ jobs:
         node-version: '14'
 
     - name: Install Puppeteer
-      run: |
-        npm install puppeteer
+      run: npm install puppeteer
 
     - name: Capture CodersRank widget
       run: |
@@ -27,7 +26,7 @@ jobs:
         (async () => {
           const browser = await puppeteer.launch();
           const page = await browser.newPage();
-          await page.goto('file://${{ github.workspace }}/codersrank-widget.html');
+          await page.goto('file://${{ github.workspace }}/codersrank-widget.html', {waitUntil: 'networkidle0'});
           await page.screenshot({path: 'codersrank-widget.png'});
           await browser.close();
         })();
