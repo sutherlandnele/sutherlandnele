@@ -86,7 +86,7 @@
 
 | Ubuntu | Kali Linux | Red Hat | macOS |
 |--------|------------|---------|-------|
-| <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" width="100px"> | <img src="https://cdn.kali.org/kali-logo.svg" width="100px"> | <img src="https://www.redhat.com/cms/managed-files/styles/wysiwyg_full_width/s3/Logo-RedHat-A-Color-RGB.png?itok=e3bXzWgM" width="100px"> | <img src="[https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg](https://pinpointlabs.com/wp-content/uploads/2019/01/MACOS-LOGO.png)" width="100px"> |
+| <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" width="100px"> | <img src="https://cdn.kali.org/kali-logo.svg" width="100px"> | <img src="https://www.redhat.com/cms/managed-files/styles/wysiwyg_full_width/s3/Logo-RedHat-A-Color-RGB.png?itok=e3bXzWgM" width="100px"> | <img src="https://pinpointlabs.com/wp-content/uploads/2019/01/MACOS-LOGO.png" width="100px"> |
 
 
 
