@@ -82,7 +82,7 @@
 
 ---
 
-### ❤️ OS - In Love with Linux ![Linux](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)
+### ❤️ OS - In Love with Linux <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" width="100px">
 
 | Ubuntu | Kali Linux | Red Hat | macOS |
 |--------|------------|---------|-------|
