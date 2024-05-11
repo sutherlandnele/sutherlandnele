@@ -21,7 +21,7 @@ jobs:
       run: npm install puppeteer
 
     - name: Capture CodersRank widget
-      run: node capture-widget.js
+      run: node capture-codersrank-widget.js
     - name: Commit and push if changed
       run: |
         git config --global user.email "action@github.com"
