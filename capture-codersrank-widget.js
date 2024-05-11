@@ -21,7 +21,7 @@ const puppeteer = require('puppeteer');
     clip: {
       x: 0,
       y: 0,
-      width: 1280, // Match viewport width or adjust as necessary
+      width: 600, // Match viewport width or adjust as necessary
       height: clipHeight
     }
   });
