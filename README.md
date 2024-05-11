@@ -61,6 +61,14 @@
 
 ---
 
+### 📊 Code Rankers Stats
+
+<p align="center">
+  <img height="195" align="center" src="./codersrank-widget.png"/>
+</p>
+
+---
+
 ### 📊 GitHub Stats
 
 <p align="center">
