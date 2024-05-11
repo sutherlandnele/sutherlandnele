@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 12 * * *'
   workflow_dispatch:  # This line allows you to manually trigger the workflow
-
+  push: {branches: ["master", "main"]}
 jobs:
   update-widget:
     runs-on: ubuntu-latest
