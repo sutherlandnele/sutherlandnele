@@ -82,11 +82,12 @@
 
 ---
 
-# OS In Love with Linux ![Love](https://img.shields.io/badge/-Love-red?style=for-the-badge&logo=heart) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+### ❤️ OS - In Love with Linux ![Linux](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)
 
 | Ubuntu | Kali Linux | Red Hat | macOS |
 |--------|------------|---------|-------|
-| ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) | ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white) | ![Red Hat](https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white) | ![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white) |
+| ![Ubuntu](https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png) | ![Kali Linux](https://www.kali.org/images/kali-logo.svg) | ![Red Hat](https://www.redhat.com/cms/managed-files/trusted-oss-logotype-220x116.png) | ![macOS](https://developer.apple.com/design/human-interface-guidelines/macos/images/macos-logo.png) |
+
 
 --- 
 
