@@ -82,11 +82,12 @@
 
 ---
 
-### ❤️ OS - In Love with Linux <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" width="50px">
+### <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" width="50px"> My Favourite Operating Systems - ❤️ In Love with Linux
 
 | Ubuntu | Kali Linux | Red Hat | macOS |
 |--------|------------|---------|-------|
-| <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" width="100px"> | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Kali_Linux_Logo.png" width="100px"> | <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Red_Hat_logo.svg" width="100px"> | <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" width="100px"> |
+| <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" width="100px"> | <img src="https://cdn.kali.org/kali-logo.svg" width="100px"> | <img src="https://www.redhat.com/cms/managed-files/styles/wysiwyg_full_width/s3/Logo-RedHat-A-Color-RGB.png?itok=e3bXzWgM" width="100px"> | <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" width="100px"> |
+
 
 
 --- 
