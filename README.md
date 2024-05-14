@@ -10,6 +10,8 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sutherlandnele&style=flat-square&color=blue" alt="profile view count"/>
   <img src="https://img.shields.io/github/followers/sutherlandnele?label=Followers&style=social" alt="followers"/>
+</p>
+<p align="center">
   Personal Portfolio Site: <a href="https://sutherlandnele.github.io" target="_blank">https://sutherlandnele.github.io</a>
 </p>
 
