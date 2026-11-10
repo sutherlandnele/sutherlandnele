@@ -12,8 +12,35 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # Keep profile output consistent while running reviewed upstream fixes.
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
         with:
+          persist-credentials: false
+
+      - name: Checkout pinned upstream Metrics source
+        uses: actions/checkout@v4
+        with:
+          repository: lowlighter/metrics
+          ref: 366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+          path: .github/actions/metrics-patched
+          persist-credentials: false
+
+      - name: Verify and apply PR 1834 plus Projects V2 patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE_DIR="$GITHUB_WORKSPACE/.github/actions/metrics-patched"
+          PATCH_FILE="$GITHUB_WORKSPACE/.github/patches/metrics-pr1834-plus-projectsv2.patch"
+          test "$(git -C "$SOURCE_DIR" rev-parse HEAD)" = "366f8b9dfe3a59656c67d5dcad9950f59c9bc96d"
+          git -C "$SOURCE_DIR" apply --check "$PATCH_FILE"
+          git -C "$SOURCE_DIR" apply "$PATCH_FILE"
+          echo "Verified and applied Metrics fixes"
+
+      - uses: ./.github/actions/metrics-patched
+        with:
+          use_prebuilt_image: no
+          filename: github-metrics.svg
           # Your GitHub token
           # The following scopes are required:
           #  - public_access (default scope)

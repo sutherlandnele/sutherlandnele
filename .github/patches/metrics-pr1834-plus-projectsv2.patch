@@ -1,0 +1,122 @@
+diff --git a/source/plugins/achievements/list/users.mjs b/source/plugins/achievements/list/users.mjs
+--- a/source/plugins/achievements/list/users.mjs
++++ b/source/plugins/achievements/list/users.mjs
+@@ -57,3 +57,3 @@ export default async function({list, login, data, computed, imports, graphql, qu
+   {
+-    const value = user.projects.totalCount
+-    const unlock = user.projects.nodes?.shift()
++    const value = user.projectsV2.totalCount
++    const unlock = user.projectsV2.nodes?.shift()
+diff --git a/source/plugins/achievements/queries/achievements.graphql b/source/plugins/achievements/queries/achievements.graphql
+--- a/source/plugins/achievements/queries/achievements.graphql
++++ b/source/plugins/achievements/queries/achievements.graphql
+@@ -47,11 +47,8 @@ query AchievementsDefault {
+         totalCount
+       }
+     }
+-    projects(first: 1, orderBy: {field: CREATED_AT, direction: ASC}) {
++    projectsV2(first: 1, orderBy: {field: CREATED_AT, direction: ASC}) {
+       totalCount
+-      #nodes { This requires additional scopes :/
+-      #  name
+-      #}
+     }
+     packages(first: 1, orderBy: {direction: ASC, field: CREATED_AT}) {
+       totalCount
+diff --git a/source/plugins/activity/index.mjs b/source/plugins/activity/index.mjs
+--- a/source/plugins/activity/index.mjs
++++ b/source/plugins/activity/index.mjs
+@@ -53,6 +53,8 @@ export default async function({login, data, rest, q, account, imports}, {enabled
+             case "CommitCommentEvent": {
+               if (!["created"].includes(payload.action))
+                 return null
++              if (!payload.comment?.user)
++                return null
+               const {comment: {user: {login: user}, commit_id: sha, body: content}} = payload
+               if (!imports.filters.text(user, ignored))
+                 return null
+@@ -82,6 +84,8 @@ export default async function({login, data, rest, q, account, imports}, {enabled
+             case "IssueCommentEvent": {
+               if (!["created"].includes(payload.action))
+                 return null
++              if (!payload.issue?.user)
++                return null
+               const {issue: {user: {login: user}, title, number}, comment: {body: content, performed_via_github_app: mobile}} = payload
+               if (!imports.filters.text(user, ignored))
+                 return null
+@@ -91,6 +95,8 @@ export default async function({login, data, rest, q, account, imports}, {enabled
+             case "IssuesEvent": {
+               if (!["opened", "closed", "reopened"].includes(payload.action))
+                 return null
++              if (!payload.issue?.user)
++                return null
+               const {action, issue: {user: {login: user}, title, number, body: content}} = payload
+               if (!imports.filters.text(user, ignored))
+                 return null
+@@ -100,6 +106,8 @@ export default async function({login, data, rest, q, account, imports}, {enabled
+             case "MemberEvent": {
+               if (!["added"].includes(payload.action))
+                 return null
++              if (!payload.member)
++                return null
+               const {member: {login: user}} = payload
+               if (!imports.filters.text(user, ignored))
+                 return null
+@@ -113,13 +121,17 @@ export default async function({login, data, rest, q, account, imports}, {enabled
+             case "PullRequestEvent": {
+               if (!["opened", "closed"].includes(payload.action))
+                 return null
++              if (!payload.pull_request?.user)
++                return null
+               const {action, pull_request: {user: {login: user}, title, number, body: content, additions: added, deletions: deleted, changed_files: changed, merged}} = payload
+               if (!imports.filters.text(user, ignored))
+                 return null
+               return {type: "pr", actor, timestamp, repo, action: (action === "closed") && (merged) ? "merged" : action, user, title, number, content: await imports.markdown(content, {mode: markdown, codelines}), lines: {added, deleted}, files: {changed}}
+             }
+             //Reviewed a pull request
+             case "PullRequestReviewEvent": {
++              if (!payload.pull_request?.user)
++                return null
+               const {review: {state: review}, pull_request: {user: {login: user}, number, title}} = payload
+               if (!imports.filters.text(user, ignored))
+                 return null
+@@ -129,6 +141,8 @@ export default async function({login, data, rest, q, account, imports}, {enabled
+             case "PullRequestReviewCommentEvent": {
+               if (!["created"].includes(payload.action))
+                 return null
++              if (!payload.pull_request?.user)
++                return null
+               const {pull_request: {user: {login: user}, title, number}, comment: {body: content, performed_via_github_app: mobile}} = payload
+               if (!imports.filters.text(user, ignored))
+                 return null
+@@ -137,7 +151,7 @@ export default async function({login, data, rest, q, account, imports}, {enabled
+             //Pushed commits
+             case "PushEvent": {
+               let {size, commits, ref} = payload
+-              commits = commits.filter(({author: {email}}) => imports.filters.text(email, ignored))
++              commits = (commits ?? []).filter(({author: {email}}) => imports.filters.text(email, ignored))
+               if (!commits.length)
+                 return null
+               if (commits.slice(-1).pop()?.message.startsWith("Merge branch "))
+diff --git a/source/plugins/habits/index.mjs b/source/plugins/habits/index.mjs
+--- a/source/plugins/habits/index.mjs
++++ b/source/plugins/habits/index.mjs
+@@ -47,7 +47,7 @@ export default async function({login, data, rest, imports, q, account}, {enabled
+     const patches = [
+       ...await Promise.allSettled(
+         commits
+-          .flatMap(({payload}) => payload.commits)
++          .flatMap(({payload}) => payload.commits ?? [])
+           .filter(({author}) => data.shared["commits.authoring"].filter(authoring => author?.login?.toLocaleLowerCase().includes(authoring) || author?.email?.toLocaleLowerCase().includes(authoring) || author?.name?.toLocaleLowerCase().includes(authoring)).length)
+           .map(async commit => (await rest.request(commit)).data.files),
+       ),
+diff --git a/source/plugins/projects/index.mjs b/source/plugins/projects/index.mjs
+--- a/source/plugins/projects/index.mjs
++++ b/source/plugins/projects/index.mjs
+@@ -19,5 +19,3 @@ export default async function({login, data, imports, graphql, q, queries, account
+     console.debug(`metrics/compute/${login}/plugins > projects > querying api`)
+-    const {[account]: {projects}} = await graphql(queries.projects["user.legacy"]({login, limit, account}))
+     const {[account]: {projectsV2}} = await graphql(queries.projects.user({login, limit, account}))
+-    projects.nodes.unshift(...projectsV2.nodes)
+-    projects.totalCount += projectsV2.totalCount
++    const projects = {nodes: [...projectsV2.nodes], totalCount: projectsV2.totalCount}
