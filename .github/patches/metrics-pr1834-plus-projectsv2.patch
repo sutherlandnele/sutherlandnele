@@ -1,12 +1,16 @@
 diff --git a/source/plugins/achievements/list/users.mjs b/source/plugins/achievements/list/users.mjs
 --- a/source/plugins/achievements/list/users.mjs
 +++ b/source/plugins/achievements/list/users.mjs
-@@ -57,3 +57,3 @@ export default async function({list, login, data, computed, imports, graphql, qu
+@@ -56,7 +56,7 @@ export default async function({list, login, data, computed, imports, graphql, qu
+   //Manager
    {
 -    const value = user.projects.totalCount
 -    const unlock = user.projects.nodes?.shift()
 +    const value = user.projectsV2.totalCount
 +    const unlock = user.projectsV2.nodes?.shift()
+ 
+     list.push({
+       title: "Manager",
 diff --git a/source/plugins/achievements/queries/achievements.graphql b/source/plugins/achievements/queries/achievements.graphql
 --- a/source/plugins/achievements/queries/achievements.graphql
 +++ b/source/plugins/achievements/queries/achievements.graphql
@@ -113,10 +117,14 @@ diff --git a/source/plugins/habits/index.mjs b/source/plugins/habits/index.mjs
 diff --git a/source/plugins/projects/index.mjs b/source/plugins/projects/index.mjs
 --- a/source/plugins/projects/index.mjs
 +++ b/source/plugins/projects/index.mjs
-@@ -19,5 +19,3 @@ export default async function({login, data, imports, graphql, q, queries, account
+@@ -16,9 +16,7 @@ export default async function({login, data, imports, graphql, q, queries, account
+     //Retrieve user owned projects from graphql api
      console.debug(`metrics/compute/${login}/plugins > projects > querying api`)
 -    const {[account]: {projects}} = await graphql(queries.projects["user.legacy"]({login, limit, account}))
      const {[account]: {projectsV2}} = await graphql(queries.projects.user({login, limit, account}))
 -    projects.nodes.unshift(...projectsV2.nodes)
 -    projects.totalCount += projectsV2.totalCount
 +    const projects = {nodes: [...projectsV2.nodes], totalCount: projectsV2.totalCount}
+ 
+     //Retrieve repositories projects from graphql api
+     for (const identifier of repositories) {
