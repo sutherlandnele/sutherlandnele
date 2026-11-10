@@ -1,7 +1,15 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: true });
+  // GitHub-hosted Ubuntu runners restrict Chrome user namespaces.
+  // Use the reduced-sandbox mode only in ephemeral GitHub Actions runners.
+  // Do not pass GitHub write credentials into this browser job.
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: process.env.GITHUB_ACTIONS === 'true'
+      ? ['--no-sandbox', '--disable-setuid-sandbox']
+      : [],
+  });
   const page = await browser.newPage();
 
   // Optionally set the viewport to the desired dimensions

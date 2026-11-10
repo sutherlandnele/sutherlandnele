@@ -3,31 +3,88 @@ name: Update CodersRank Widget
 on:
   schedule:
     - cron: '0 12 * * *'
-  workflow_dispatch:  # This line allows you to manually trigger the workflow
-  push: {branches: ["master", "main"]}
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-codersrank-widget.yml
+      - capture-codersrank-widget.js
+      - codersrank-widget.html
+
+# Chromium loads a third-party script without its usual sandbox on GitHub runners.
+# Do not give the screenshot job repository write credentials.
+permissions:
+  contents: read
+
+concurrency:
+  group: codersrank-widget-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  update-widget:
-    runs-on: ubuntu-latest
+  capture:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository (read-only)
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '18'
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
 
-    - name: Install Puppeteer
-      run: npm install puppeteer
+      - name: Install Puppeteer
+        run: npm install --no-save --no-audit --no-fund puppeteer
 
-    - name: Capture CodersRank widget
-      env:
-        WORKSPACE_PATH: ${{ github.workspace }}
-      run: node capture-codersrank-widget.js
-    - name: Commit and push if changed
-      run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git add codersrank-widget.png
-        git commit -m "Update CodersRank Widget Image" || echo "No changes to commit"
-        git push
+      - name: Validate capture script
+        run: node --check capture-codersrank-widget.js
+
+      - name: Capture CodersRank widget
+        env:
+          WORKSPACE_PATH: ${{ github.workspace }}
+        run: node capture-codersrank-widget.js
+
+      - name: Upload widget artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: codersrank-widget
+          path: codersrank-widget.png
+          if-no-files-found: error
+          retention-days: 2
+
+  publish:
+    needs: capture
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v7
+
+      - name: Download widget artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: codersrank-widget
+          path: .
+
+      - name: Commit and push image only when changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add codersrank-widget.png
+          if git diff --cached --quiet; then
+            echo 'CodersRank image unchanged; nothing to publish.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore(profile): refresh CodersRank widget [skip ci]'
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
