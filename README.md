@@ -51,7 +51,7 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sutherlandnele&column=10&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=juicyfresh" alt="Sutherland's GitHub Trophies"/>
+  <img src="https://github-trophies.devomb.com/?username=sutherlandnele&column=10&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=juicyfresh" alt="Sutherland's GitHub Trophies"/>
 </p>
 
 <p align="center">
