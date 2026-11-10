@@ -128,3 +128,12 @@ diff --git a/source/plugins/projects/index.mjs b/source/plugins/projects/index.m
  
      //Retrieve repositories projects from graphql api
      for (const identifier of repositories) {
+diff --git a/Dockerfile b/Dockerfile
+--- a/Dockerfile
++++ b/Dockerfile
+@@ -21,4 +21,4 @@
+   # Install ruby to support github licensed gem
+-  && apt-get install -y ruby-full git g++ cmake pkg-config libssl-dev \
++  && apt-get install -y ruby-full git g++ cmake pkg-config libssl-dev xz-utils \
+   && gem install licensed \
+   # Install python for node-gyp
