@@ -137,3 +137,17 @@ diff --git a/Dockerfile b/Dockerfile
 +  && apt-get install -y ruby-full git g++ cmake pkg-config libssl-dev xz-utils \
    && gem install licensed \
    # Install python for node-gyp
+diff --git a/source/templates/classic/style.css b/source/templates/classic/style.css
+--- a/source/templates/classic/style.css
++++ b/source/templates/classic/style.css
+@@ -183,7 +183,7 @@
+   }
+   .contribution.organization.s {
+-    color: #EB355E;
+-    background-color: #EB355E26;
+-    border-color: #EB355E;
++    color: #79C0FF;
++    background-color: #1F6FEB18;
++    border-color: #30363D;
+   }
+   .contribution.organization.a {
