@@ -1,0 +1,11 @@
+Devicon SVG icons included for GitHub profile display.
+
+Upstream: https://github.com/devicons/devicon
+License: MIT (see LICENSE-Devicon.txt)
+Source files (master branch, retrieved 2026-11-11):
+  icons/ubuntu/ubuntu-original.svg
+  icons/kalilinux/kalilinux-original.svg
+  icons/redhat/redhat-plain.svg
+  icons/apple/apple-original.svg
+The macOS/Apple glyph has its fill set to #f0f6fc for contrast against a dark background.
+Trademark ownership remains with the respective operating system vendors.
